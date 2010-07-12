@@ -2,7 +2,6 @@ module RSpec
   module Generators
     class TestCase < ::Rails::Generators::TestCase   
       setup :prepare_destination
-      # setup :copy_routes
       destination File.join(::Rails.root)      
             
       def initialize(test_method_name)
@@ -17,8 +16,8 @@ module RSpec
         routes = File.expand_path(routes_file)
         raise ArgumentError, "No routes file exists at #{routes_file}" if !File.exist?(routes)
         destination = File.join(::Rails.root, "config")
-        FileUtils.mkdir_p(destination) # create dir
-        FileUtils.cp routes, destination # copy
+        FileUtils.mkdir_p(destination)
+        FileUtils.cp routes, destination
       end
            
     end

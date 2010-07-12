@@ -10,7 +10,6 @@ require 'rails_spec_helper'
 
 Rails::Generators.configure!
 
-# require the generators
 def require_generators generator_list
   generator_list.each do |name, generators|
     generators.each do |generator_name|
