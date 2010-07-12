@@ -1,0 +1,6 @@
+require 'rspec_for_generators/rails_helpers/rails_app'
+require 'rspec_for_generators/rails_helpers/rails_model'
+require 'rspec_for_generators/rails_helpers/rails_controller'
+require 'rspec_for_generators/rails_helpers/rails_helper'
+require 'rspec_for_generators/rails_helpers/rails_view'
+require 'rspec_for_generators/rails_helpers/rails_mailer'

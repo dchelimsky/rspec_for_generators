@@ -1,0 +1,6 @@
+require 'matchers/helpers/content'
+require 'matchers/content/have_class'
+require 'matchers/content/have_module'
+require 'matchers/content/have_method'
+require 'matchers/content/include_module'
+require 'matchers/content/inherit_from'
