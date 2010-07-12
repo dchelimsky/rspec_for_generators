@@ -1,3 +1,4 @@
+require 'rails'
 require 'rspec_for_generators/rails_helpers/all'
 
 class TestApp < Rails::Application

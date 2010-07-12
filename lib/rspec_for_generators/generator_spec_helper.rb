@@ -3,7 +3,7 @@ require 'rails/all'
 require 'rails/generators'
 require 'rails/generators/test_case'
 
-require 'rails_spec_helper'
+require 'rspec_for_generators/rails_spec_helper'
 
 # Call configure to load the settings from
 # Rails.application.config.generators to Rails::Generators

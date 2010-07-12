@@ -14,7 +14,7 @@ module RSpec
           self.should have_method(method_name, type)
         end
       end
-      alias_method :class_methods, :check_class_methods
+      alias_method :class_methods, :check_methods
     end
   end
 end

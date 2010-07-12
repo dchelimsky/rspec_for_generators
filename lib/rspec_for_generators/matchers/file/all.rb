@@ -1,3 +1,3 @@
-require 'matchers/helpers/content'
-require 'matchers/file/generate_file'
-require 'matchers/file/generate_migration'                                     
+require 'rspec_for_generators/matchers/helpers/content'
+require 'rspec_for_generators/matchers/file/generate_file'
+require 'rspec_for_generators/matchers/file/generate_migration'                                     
